@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kasper Johansen"]
   s.date = "2012-09-04"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Various file-tools for Ruby, that I want to share with others"
   s.email = "k@spernj.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "ftools.gemspec",
     "lib/ftools.rb",
     "spec/ftools_spec.rb",
     "spec/spec_helper.rb"
@@ -33,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Various file-tools for Ruby, that I want to share with others"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
